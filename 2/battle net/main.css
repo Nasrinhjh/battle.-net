@@ -1,0 +1,58 @@
+@media only screen and (max-width: 1024px) {
+    /* Hide elements with the class min-width */
+    .min-width {
+      display: none;
+    }
+  
+    /* Capitalize text in elements with the class transform-text */
+    .transform-text {
+      text-transform: capitalize;
+    }
+  
+    /* Display elements with the class active-1 as flex with space-between */
+    .active-1 {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    /* Hide elements with the class hidden-logo */
+    .hidden-logo {
+      display: none;
+    }
+  
+    /* Style for min-width-games */
+    .min-width-games {
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #15171E;
+      transition: transform 300ms;
+    }
+  
+    /* Hover effect for min-width-games */
+    .min-width-games:hover {
+      transform: scale(1.2);
+    }
+  
+    /* Style for max-width1 */
+    .max-width1 {
+      width: 1250px;
+      display: block;
+    }
+  
+    /* Style for search-box */
+    .search-box {
+      flex-grow: 1;
+    }
+  }
+  
+  /* Footer styling */
+  .footer-final {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
+  }

@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "note";
+}
+
+@font-face {
+    font-family:"note" ;
+    src: url("./fonts/NotoSans-Bold.eot");
+    src: url("./fonts/NotoSans-Bold.ttf");
+    src: url("./fonts/NotoSans-Bold.woff");
+    src: url("./fonts/NotoSans-Bold.woff2");
+}
